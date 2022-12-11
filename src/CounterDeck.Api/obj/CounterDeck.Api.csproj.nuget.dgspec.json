@@ -1,0 +1,345 @@
+{
+  "format": 1,
+  "restore": {
+    "d:\\Projects\\CounterDeck\\src\\CounterDeck.Api\\CounterDeck.Api.csproj": {}
+  },
+  "projects": {
+    "d:\\Projects\\CounterDeck\\src\\CounterDeck.Api\\CounterDeck.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Projects\\CounterDeck\\src\\CounterDeck.Api\\CounterDeck.Api.csproj",
+        "projectName": "CounterDeck.Api",
+        "projectPath": "d:\\Projects\\CounterDeck\\src\\CounterDeck.Api\\CounterDeck.Api.csproj",
+        "packagesPath": "C:\\Users\\Nicolas\\.nuget\\packages\\",
+        "outputPath": "d:\\Projects\\CounterDeck\\src\\CounterDeck.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nicolas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\CounterDeck\\src\\CounterDeck.Application\\CounterDeck.Application.csproj": {
+                "projectPath": "D:\\Projects\\CounterDeck\\src\\CounterDeck.Application\\CounterDeck.Application.csproj"
+              },
+              "D:\\Projects\\CounterDeck\\src\\CounterDeck.Contracts\\CounterDeck.Contracts.csproj": {
+                "projectPath": "D:\\Projects\\CounterDeck\\src\\CounterDeck.Contracts\\CounterDeck.Contracts.csproj"
+              },
+              "D:\\Projects\\CounterDeck\\src\\CounterDeck.Infrastructure\\CounterDeck.Infrastructure.csproj": {
+                "projectPath": "D:\\Projects\\CounterDeck\\src\\CounterDeck.Infrastructure\\CounterDeck.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Mapster.DependencyInjection": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\CounterDeck\\src\\CounterDeck.Application\\CounterDeck.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\CounterDeck\\src\\CounterDeck.Application\\CounterDeck.Application.csproj",
+        "projectName": "CounterDeck.Application",
+        "projectPath": "D:\\Projects\\CounterDeck\\src\\CounterDeck.Application\\CounterDeck.Application.csproj",
+        "packagesPath": "C:\\Users\\Nicolas\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\CounterDeck\\src\\CounterDeck.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nicolas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\CounterDeck\\src\\CounterDeck.Domain\\CounterDeck.Domain.csproj": {
+                "projectPath": "D:\\Projects\\CounterDeck\\src\\CounterDeck.Domain\\CounterDeck.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\CounterDeck\\src\\CounterDeck.Contracts\\CounterDeck.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\CounterDeck\\src\\CounterDeck.Contracts\\CounterDeck.Contracts.csproj",
+        "projectName": "CounterDeck.Contracts",
+        "projectPath": "D:\\Projects\\CounterDeck\\src\\CounterDeck.Contracts\\CounterDeck.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Nicolas\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\CounterDeck\\src\\CounterDeck.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nicolas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\CounterDeck\\src\\CounterDeck.Domain\\CounterDeck.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\CounterDeck\\src\\CounterDeck.Domain\\CounterDeck.Domain.csproj",
+        "projectName": "CounterDeck.Domain",
+        "projectPath": "D:\\Projects\\CounterDeck\\src\\CounterDeck.Domain\\CounterDeck.Domain.csproj",
+        "packagesPath": "C:\\Users\\Nicolas\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\CounterDeck\\src\\CounterDeck.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nicolas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\CounterDeck\\src\\CounterDeck.Infrastructure\\CounterDeck.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\CounterDeck\\src\\CounterDeck.Infrastructure\\CounterDeck.Infrastructure.csproj",
+        "projectName": "CounterDeck.Infrastructure",
+        "projectPath": "D:\\Projects\\CounterDeck\\src\\CounterDeck.Infrastructure\\CounterDeck.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Nicolas\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\CounterDeck\\src\\CounterDeck.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nicolas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\CounterDeck\\src\\CounterDeck.Application\\CounterDeck.Application.csproj": {
+                "projectPath": "D:\\Projects\\CounterDeck\\src\\CounterDeck.Application\\CounterDeck.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.25.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

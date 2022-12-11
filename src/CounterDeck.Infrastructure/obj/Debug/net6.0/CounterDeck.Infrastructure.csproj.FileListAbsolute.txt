@@ -1,0 +1,17 @@
+D:\Projects\CounterDeck\src\CounterDeck.Infrastructure\bin\Debug\net6.0\CounterDeck.Infrastructure.deps.json
+D:\Projects\CounterDeck\src\CounterDeck.Infrastructure\bin\Debug\net6.0\CounterDeck.Infrastructure.dll
+D:\Projects\CounterDeck\src\CounterDeck.Infrastructure\bin\Debug\net6.0\ref\CounterDeck.Infrastructure.dll
+D:\Projects\CounterDeck\src\CounterDeck.Infrastructure\bin\Debug\net6.0\CounterDeck.Infrastructure.pdb
+D:\Projects\CounterDeck\src\CounterDeck.Infrastructure\obj\Debug\net6.0\CounterDeck.Infrastructure.csproj.AssemblyReference.cache
+D:\Projects\CounterDeck\src\CounterDeck.Infrastructure\obj\Debug\net6.0\CounterDeck.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\CounterDeck\src\CounterDeck.Infrastructure\obj\Debug\net6.0\CounterDeck.Infrastructure.AssemblyInfoInputs.cache
+D:\Projects\CounterDeck\src\CounterDeck.Infrastructure\obj\Debug\net6.0\CounterDeck.Infrastructure.AssemblyInfo.cs
+D:\Projects\CounterDeck\src\CounterDeck.Infrastructure\obj\Debug\net6.0\CounterDeck.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Projects\CounterDeck\src\CounterDeck.Infrastructure\obj\Debug\net6.0\CounterDeck.Infrastructure.dll
+D:\Projects\CounterDeck\src\CounterDeck.Infrastructure\obj\Debug\net6.0\ref\CounterDeck.Infrastructure.dll
+D:\Projects\CounterDeck\src\CounterDeck.Infrastructure\obj\Debug\net6.0\CounterDeck.Infrastructure.pdb
+D:\Projects\CounterDeck\src\CounterDeck.Infrastructure\bin\Debug\net6.0\CounterDeck.Application.dll
+D:\Projects\CounterDeck\src\CounterDeck.Infrastructure\bin\Debug\net6.0\CounterDeck.Domain.dll
+D:\Projects\CounterDeck\src\CounterDeck.Infrastructure\bin\Debug\net6.0\CounterDeck.Application.pdb
+D:\Projects\CounterDeck\src\CounterDeck.Infrastructure\bin\Debug\net6.0\CounterDeck.Domain.pdb
+D:\Projects\CounterDeck\src\CounterDeck.Infrastructure\obj\Debug\net6.0\CounterDeck.Infrastructure.csproj.CopyComplete
