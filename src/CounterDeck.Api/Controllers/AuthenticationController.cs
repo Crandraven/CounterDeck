@@ -2,6 +2,7 @@ using CounterDeck.Application.Authentication.Commands.Register;
 using CounterDeck.Application.Authentication.Common;
 using CounterDeck.Application.Authentication.Queries.Login;
 using CounterDeck.Contracts.Authentication;
+using ErrorOr;
 using MapsterMapper;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -23,21 +24,23 @@ public class AuthenticationController : ControllerBase
     public async Task<IActionResult> Register(RegisterRequest request)
     {
         var command = _mapper.Map<RegisterCommand>(request);
-        AuthenticationResult authResult = await _mediator.Send(command);
+        ErrorOr<AuthenticationResult> authResult = await _mediator.Send(command);
 
-        var response = _mapper.Map<AuthenticationResponse>(authResult);
-
-        return Ok(response);
+        return authResult.Match(
+            authResult => Ok(_mapper.Map<AuthenticationResponse>(authResult)),
+            _ => Problem()
+        );
     }
 
     [HttpPost("login")]
     public async Task<IActionResult> Login(LoginRequest request)
     {
         var query = _mapper.Map<LoginQuery>(request);
-        AuthenticationResult authResult = await _mediator.Send(query);
+        ErrorOr<AuthenticationResult> authResult = await _mediator.Send(query);
 
-        var response = _mapper.Map<AuthenticationResponse>(authResult);
-
-        return Ok(response);
+        return authResult.Match(
+            authResult => Ok(_mapper.Map<AuthenticationResponse>(authResult)),
+            _ => Problem()
+        );
     }
 }

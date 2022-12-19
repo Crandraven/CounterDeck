@@ -1,4 +1,5 @@
 using CounterDeck.Application.Authentication.Common;
+using ErrorOr;
 using MediatR;
 
 namespace CounterDeck.Application.Authentication.Commands.Register;
@@ -8,4 +9,4 @@ public record RegisterCommand(
     string LastName,
     string Email,
     string Password
-) : IRequest<AuthenticationResult>;
+) : IRequest<ErrorOr<AuthenticationResult>>;
