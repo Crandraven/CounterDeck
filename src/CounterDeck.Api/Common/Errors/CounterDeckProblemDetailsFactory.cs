@@ -1,4 +1,6 @@
 using System.Diagnostics;
+using CounterDeck.Api.Common.http;
+using ErrorOr;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
@@ -81,15 +83,19 @@ public class CounterDeckProblemDetailsFactory : ProblemDetailsFactory
         if (_options.ClientErrorMapping.TryGetValue(statusCode, out var clientErrorData))
         {
             problemDetails.Title ??= clientErrorData.Title;
-            problemDetails.Type ??= clientErrorData.Link;
+            //problemDetails.Type ??= clientErrorData.Link;
         }
 
-        var traceId = Activity.Current?.Id ?? httpContext?.TraceIdentifier;
+        /*var traceId = Activity.Current?.Id ?? httpContext?.TraceIdentifier;
         if (traceId != null)
         {
             problemDetails.Extensions["traceId"] = traceId;
-        }
+        }*/
 
-        //problemDetails.Extensions.Add("customProperty", "customValue");
+        var errors = httpContext?.Items[HttpContextItemKeys.Errors] as List<Error>;
+        if (errors is not null)
+        {
+            problemDetails.Extensions.Add("errorCodes", errors.Select(e => e.Code));
+        }
     }
 }

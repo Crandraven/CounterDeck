@@ -1,12 +1,12 @@
 using ErrorOr;
 
-namespace CounterDeck.Domain.Common.Errors;
+namespace CounterDeck.Application.Common.Errors;
 
 public static partial class Errors
 {
     public static class Authentication
     {
-        public static Error InvalidCredentials => Error.Conflict(
+        public static Error InvalidCredentials => Error.Validation(
             code: "Auth.InvalidCredential",
             description: "Invalid credentials.");
     }

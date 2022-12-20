@@ -25,7 +25,7 @@ public class RegisterCommandHandler : IRequestHandler<RegisterCommand, ErrorOr<A
 
         if (_userRepository.GetUserByEmail(command.Email) is not null)
         {
-            return new Errors.User.DuplicateEmail;
+            return Errors.User.DuplicateEmail;
         }
 
         var user = new User
