@@ -1,4 +1,3 @@
-using System.Diagnostics;
 using CounterDeck.Api.Common.http;
 using ErrorOr;
 using Microsoft.AspNetCore.Mvc;

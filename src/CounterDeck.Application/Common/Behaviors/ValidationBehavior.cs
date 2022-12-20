@@ -1,5 +1,3 @@
-using CounterDeck.Application.Authentication.Commands.Register;
-using CounterDeck.Application.Authentication.Common;
 using ErrorOr;
 using FluentValidation;
 using MediatR;

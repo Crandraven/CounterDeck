@@ -1,8 +1,5 @@
 using System.Reflection;
-using CounterDeck.Application.Authentication.Commands.Register;
-using CounterDeck.Application.Authentication.Common;
 using CounterDeck.Application.Common.Behaviors;
-using ErrorOr;
 using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
