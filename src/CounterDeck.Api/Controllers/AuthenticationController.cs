@@ -6,11 +6,13 @@ using CounterDeck.Contracts.Authentication;
 using ErrorOr;
 using MapsterMapper;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CounterDeck.Api.Controllers;
 
 [Route("auth")]
+[AllowAnonymous]
 public class AuthenticationController : ApiController
 {
     private readonly IMediator _mediator;

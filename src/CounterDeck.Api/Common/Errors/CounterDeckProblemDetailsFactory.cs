@@ -94,7 +94,22 @@ public class CounterDeckProblemDetailsFactory : ProblemDetailsFactory
         var errors = httpContext?.Items[HttpContextItemKeys.Errors] as List<Error>;
         if (errors is not null)
         {
+            //var errorsDictionnary = CreateCustomErrorsDictionnary(errors);
+            //problemDetails.Extensions.Add("errors", errorsDictionnary);
             problemDetails.Extensions.Add("errorCodes", errors.Select(e => e.Code));
         }
     }
+
+    /*private Dictionary<string, string[]> CreateCustomErrorsDictionnary(List<Error> errors)
+    {
+        var errorsDictionnary = new Dictionary<string, string[]>();
+        foreach (Error error in errors)
+        {
+            var codeAndDescription = error.Code.Split('.');
+            errorsDictionnary.Add(
+                codeAndDescription[0],
+                new string[] { codeAndDescription[1] });
+        }
+        return errorsDictionnary;
+    }*/
 }

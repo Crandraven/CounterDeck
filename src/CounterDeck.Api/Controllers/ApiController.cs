@@ -1,11 +1,13 @@
 using CounterDeck.Api.Common.http;
 using ErrorOr;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace CounterDeck.Api.Controllers;
 
 [ApiController]
+[Authorize]
 public class ApiController : ControllerBase
 {
     protected IActionResult Problem(Error error, int statusCode)
