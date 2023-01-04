@@ -1,27 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ED0D12A3-ABB5-43A7-87FB-85CF871FFC54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CounterDeck.Api", "src\CounterDeck.Api\CounterDeck.Api.csproj", "{6A48C421-4941-477F-A5EC-4D3E3A42D758}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CounterDeck.Api", "src\CounterDeck.Api\CounterDeck.Api.csproj", "{6A48C421-4941-477F-A5EC-4D3E3A42D758}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CounterDeck.Application", "src\CounterDeck.Application\CounterDeck.Application.csproj", "{82CC57FF-E273-4B20-8AFD-D50BE0291DB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CounterDeck.Application", "src\CounterDeck.Application\CounterDeck.Application.csproj", "{82CC57FF-E273-4B20-8AFD-D50BE0291DB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CounterDeck.Contracts", "src\CounterDeck.Contracts\CounterDeck.Contracts.csproj", "{EB6F5F93-C7B6-46DA-B44F-95F55E4F20FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CounterDeck.Contracts", "src\CounterDeck.Contracts\CounterDeck.Contracts.csproj", "{EB6F5F93-C7B6-46DA-B44F-95F55E4F20FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CounterDeck.Domain", "src\CounterDeck.Domain\CounterDeck.Domain.csproj", "{9990B014-949A-446D-BD35-A324D7FD7C68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CounterDeck.Domain", "src\CounterDeck.Domain\CounterDeck.Domain.csproj", "{9990B014-949A-446D-BD35-A324D7FD7C68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CounterDeck.Infrastructure", "src\CounterDeck.Infrastructure\CounterDeck.Infrastructure.csproj", "{BAAD6FDD-45E5-4F9C-B8BA-294D8EF46EC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CounterDeck.Infrastructure", "src\CounterDeck.Infrastructure\CounterDeck.Infrastructure.csproj", "{BAAD6FDD-45E5-4F9C-B8BA-294D8EF46EC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{6A48C421-4941-477F-A5EC-4D3E3A42D758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -45,11 +42,17 @@ Global
 		{BAAD6FDD-45E5-4F9C-B8BA-294D8EF46EC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAAD6FDD-45E5-4F9C-B8BA-294D8EF46EC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6A48C421-4941-477F-A5EC-4D3E3A42D758} = {ED0D12A3-ABB5-43A7-87FB-85CF871FFC54}
 		{82CC57FF-E273-4B20-8AFD-D50BE0291DB2} = {ED0D12A3-ABB5-43A7-87FB-85CF871FFC54}
 		{EB6F5F93-C7B6-46DA-B44F-95F55E4F20FE} = {ED0D12A3-ABB5-43A7-87FB-85CF871FFC54}
 		{9990B014-949A-446D-BD35-A324D7FD7C68} = {ED0D12A3-ABB5-43A7-87FB-85CF871FFC54}
 		{BAAD6FDD-45E5-4F9C-B8BA-294D8EF46EC5} = {ED0D12A3-ABB5-43A7-87FB-85CF871FFC54}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFFA8836-E4B9-465A-92A8-D0FB6B7C0A36}
 	EndGlobalSection
 EndGlobal
