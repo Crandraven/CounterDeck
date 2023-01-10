@@ -21,8 +21,7 @@ POST {{host}}/auth/register
 
 ```json
 {
-    "firstname": "Nicolas",
-    "lastname": "RUBIO",
+    "username": "username",
     "email": "nicolas@rubio.fr",
     "password": "Nic0@RuB42"
 }
@@ -37,8 +36,7 @@ POST {{host}}/auth/register
 ```json
 {
     "id": "00000000-0000-0000-0000-000000000000",
-    "firstname": "Nicolas",
-    "lastname": "RUBIO",
+    "username": "username",
     "email": "nicolas@rubio.fr",
     "token": "eyJhb..z9dqcnXoY"
 }
@@ -54,8 +52,8 @@ POST {{host}}/auth/login
 
 ```json
 {
-    "email": "nicolas@rubio.fr",
-    "password": "Nic0@RuB42"
+    "username": "username",
+    "password": "P@ss0rd!1234"
 }
 ```
 
@@ -68,8 +66,7 @@ POST {{host}}/auth/login
 ```json
 {
     "id": "00000000-0000-0000-0000-000000000000",
-    "firstname": "Nicolas",
-    "lastname": "RUBIO",
+    "username": "username",
     "email": "nicolas@rubio.fr",
     "token": "eyJhb..hbbqY"
 }

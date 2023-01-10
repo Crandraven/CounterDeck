@@ -4,6 +4,6 @@ namespace CounterDeck.Application.Common.Interfaces.Persistence;
 
 public interface IUserRepository
 {
-    User? GetUserByEmail(string email);
+    User? GetUserByUserName(string userName);
     void Add(User user);
 }

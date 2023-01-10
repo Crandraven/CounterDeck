@@ -4,4 +4,4 @@ using MediatR;
 
 namespace CounterDeck.Application.Authentication.Queries.Login;
 
-public record LoginQuery(string Email, string Password) : IRequest<ErrorOr<AuthenticationResult>>;
+public record LoginQuery(string UserName, string Password) : IRequest<ErrorOr<AuthenticationResult>>;

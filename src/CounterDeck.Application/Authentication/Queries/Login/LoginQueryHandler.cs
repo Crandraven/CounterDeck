@@ -22,7 +22,7 @@ public class LoginQueryHandler : IRequestHandler<LoginQuery, ErrorOr<Authenticat
     {
         await Task.CompletedTask;
 
-        if (_userRepository.GetUserByEmail(query.Email) is not User user
+        if (_userRepository.GetUserByUserName(query.UserName) is not User user
             || user.Password != query.Password)
         {
             return Errors.Authentication.InvalidCredentials;

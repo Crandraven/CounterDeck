@@ -1,6 +1,6 @@
 namespace CounterDeck.Contracts.Authentication;
 
 public record LoginRequest(
-    string Email,
+    string UserName,
     string Password
 );
